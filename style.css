@@ -1,0 +1,106 @@
+
+
+.con{
+    color: black;
+    background-color: rgb(255, 165, 0);
+    padding: 2px;
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-style: italic;
+}
+
+.myClass{
+    color:black;
+    background-color: rgb(27, 188, 27);
+    padding: 2px; 
+    text-align: center;
+    font-weight: normal; 
+    font-family: 'Times New Roman';
+    font-style: italic;
+    text-transform: none;
+    /* font-size: 16px; */
+    /* text-decoration: underline; */
+}
+#outer{
+    font-size: 25px;
+}
+#inner{
+    font-size: 10px;
+} 
+
+ /* div{
+    height: 100px;
+    width : 100px;
+    background-color:green;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black; 
+    border: 2px solid orange;
+    border-radius: 50px;
+    text-align: center;
+    padding-left: 25px;
+    padding: 10px 20px 30px 40px;
+    margin: 50px; 
+}   */
+#traffic{
+    height: 350px;
+    width: 150px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+#r,#y,#g{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+#r{
+    background-color: red;
+}
+#y{
+    background-color: yellow;
+}
+#g{
+    background-color: green; 
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    color: white;
+}
+
+#navbar{
+    background-color: #0f1111;
+    height: 60px;
+}
+#logo{
+    color: orange;
+    font-size: 25px;
+}
+button{
+    background-color: orange;
+}
+a{
+    margin-right: 180px;
+    text-decoration: none;
+}
+
+.contentBox{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+#content{
+    height: 489px;
+    
+}
+footer{
+    background-color: #0f1111;
+    text-align: center;
+}
+
+
