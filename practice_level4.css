@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    background-color: skyblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style-type: none;
+    background-color: burlywood;
+}
+
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(47, 255, 109);
+}
+
+.med{
+    height: 100px;
+    width: 100px;
+    background-color: chocolate;
+}
+@media(max-width:300px){
+    .med{
+        background-color: green;
+    }
+}
+
+@media(min-width:300px) and (max-width :400px){
+    .med{
+        background-color: pink;
+    }
+}
+@media(min-width:400px) and (max-width :600px){
+    .med{
+        background-color: red;
+    }
+}
+
+@media(min-width:600px){
+    .med{
+        background-color: blue;
+    }
+}
