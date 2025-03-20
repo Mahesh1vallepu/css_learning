@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+    display: inline-block;
+}
+#container{
+    width: 600px;
+    height: 300px;
+    display: flex; /* creating the flexbox container */
+    flex-direction: row;       /* elements left to right 1 2 3 4 -->*/
+    /*flex-direction: row-reverse;     /* elements right to left 4 3 2 1 <--*/
+    /*flex-direction:column;  /* elements top to bottom 1 2 3 4  */
+    /*flex-direction: column-reverse;  /*elements bottom to top 4 3 2 1 */
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    align-items: flex-start;
+    /* align-content: center; */
+
+}
+#box1{
+    background-color: red;
+}
+#box2{
+    background-color: green;
+    height: 200px;
+    flex-shrink: 2;
+    /* align-self: flex-end; */
+}
+#box3{
+    background-color: orchid;
+    height: 50px;
+}
+#box4{
+    background-color: yellowgreen;
+}
+#box5{
+    background-color: skyblue;
+    /* align-self: flex-end; */
+}
